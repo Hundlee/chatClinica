@@ -1,11 +1,11 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
 import {
     getDatabase,
     set,
     ref,
     push,
     onChildAdded,
-} from "https://www.gstatic.com/firebasejs/10.5.2/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
 
 import {
     getAuth,
@@ -13,17 +13,17 @@ import {
     signInWithEmailAndPassword,
     updateProfile,
     signOut,
-} from "https://www.gstatic.com/firebasejs/10.5.2/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDmDVgn1w2e2mtP95-zUyh48xFc-jpRD4E",
-    authDomain: "clinica-saude-chat.firebaseapp.com",
-    databaseURL: "https://clinica-saude-chat-default-rtdb.firebaseio.com/",
-    projectId: "clinica-saude-chat",
-    storageBucket: "clinica-saude-chat.appspot.com",
-    messagingSenderId: "856598122743",
-    appId: "1:856598122743:web:9acf51953fb10d7e9843f2",
-    measurementId: "G-GV93ZSYVQR",
+    apiKey: "AIzaSyAafmJc1qbQevKHSgvAx2ngHYAXQyi01bE",
+    authDomain: "chatclinicadeploy.firebaseapp.com",
+    databaseURL: "https://chatclinicadeploy-default-rtdb.firebaseio.com",
+    projectId: "chatclinicadeploy",
+    storageBucket: "chatclinicadeploy.appspot.com",
+    messagingSenderId: "1095622371501",
+    appId: "1:1095622371501:web:f22dd7fe42ee4251c3fe24",
+    measurementId: "G-BYWW0LTYLC",
 };
 
 const app = initializeApp(firebaseConfig);
